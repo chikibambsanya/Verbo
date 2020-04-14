@@ -6,4 +6,177 @@
     android:layout_height="match_parent"
     tools:context=".About">
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="411dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/alalal" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="113dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/gfdgsfg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Крутой чувак мега цирк саша"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="78dp"
+        android:text="Это в общем я создатель этой вкладки мне 12 я молод, иду в Мега цирк, красивый добрый умный смешной, мне так мама всегда говорит)) хочу понять ооп, но учу тригонометрию((9("
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/ffffffff" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Это Анатолий толян толя"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="268dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:text="Штош сказать... Ему 16 или 17 (с днем рождения если 17), он короче молодец я считаю вот, а еще он в контр страйк со мной играет, он тоже делает по джаве чета и умеет чета делать вот)))"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="117dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/andrey" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="278dp"
+        android:layout_height="34dp"
+        android:text="Это Андрей или как он себя называеит sveagruva"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="279dp"
+        android:layout_height="92dp"
+        android:text="Вообще мы гуглили что такое sveagruva и узнали, что это город-шахта на оcтровах Норвегии. Но он отрицает, что он город-шахта.. но мы раскроем его. Вообще он все знает все умеет даже пентагон взламать может!1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="104dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/nn" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:text="Это Наталья Николаевна, здравствуйте!"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="264dp"
+        android:layout_height="95dp"
+        android:text="Информатика и математика самые лучшие уроки я их обожаю без крестиков без ноликов без всяких алкоголиков. Извините вашей фотожабы (прикола), ржаки у меня нету поэтому вот фотография стоит"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="118dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/alki" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="279dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="3dp"
+        android:text="Это Alki, или как его еще называют - Александр"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="280dp"
+        android:layout_height="82dp"
+        android:text="Спасибо, что объясняете джаву. джаву круто джава класс, кто не верит тому в глаз. я не понял логи это че и они не работают а так спасибо) в дискорде вы были афк поэтому фотка немного серая "
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

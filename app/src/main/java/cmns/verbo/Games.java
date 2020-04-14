@@ -6,16 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class Games extends AppCompatActivity {
-    public static final String TAG="Main Activity";
+    public static final String TAG="Main1Activity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_games);
-        int a = 1;
-//        ijkldbrffgrgeersg
-        int b = 0;
-//        dspkafgops[dfkaspdfsdfasdfasdfsadfkfffkfkfkkkfkfkfkkfkfkfkfkf
     }
 
     @Override
